@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+input {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #EFEFEF;
+}
+
+body::before {
+    content: '';
+    width: 100%;
+    height: 436px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #535971;
+}
+
+#page {
+    width: 750px;
+    margin: auto;
+}
+
+header {
+    width: 400px;
+    margin-top: 140px;  
+}
+
+header h1 {
+    font-family: 'Staatliches', sans-serif;
+    color: #FFF;
+    font-size: 48px;
+}
+
+header p {
+    color: #FFF;
+    font-size: 20px;
+    margin: 18px 0 46px;
+}
+
+form {
+    background: #FFF;
+    border-radius: 20px 20px 0px 0px;
+    padding: 64px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset legend {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 24px;
+    width: 100%;
+    
+    border-bottom: 1px solid #E6E6F0;
+    padding-bottom: 16px;
+    margin-bottom: 36px;
+}
+
+fieldset h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 11px;
+}
+
+fieldset legend,
+fieldset h2 {
+    font-family: 'Staatliches', sans-serif;
+    color: #535971;
+    line-height: 34px;
+}
+
+.fieldset-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.column-2 {
+    display: flex;
+    gap: 22px;
+}
+
+.column-2 > div {
+    width: 100%;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper label {
+    color: #4E4958;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.input-wrapper label span {
+    color: #a9a7af;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 9px;
+}
+
+.input-wrapper label span:hover {
+    color: #6c6a71;
+}
+
+.input-wrapper input {
+    background: #FAFAFC;
+    color: #6c6a71;
+    font-size: 16px;
+    line-height: 26px;
+
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+
+    height: 56px;
+    padding: 24px;
+}
+
+.column-3 {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 32px;
+}
+
+.column-3 > div:nth-child(1) {
+    width: 100%;
+    margin-right: 32px;
+}
+
+footer {
+    background: #535971;
+    height: 160px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 51px 71px;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 30px;
+}
+
+footer .button {
+    height: 55px;
+    border: none;
+    border-radius: 20px;
+
+    font-family: 'Staatliches', sans-serif;
+    background: #FF5374;
+    color: #EFEFEF;
+    font-size: 20px;
+    line-height: 26px;  
+
+    cursor: pointer;
+}
+footer .button:hover {
+    background: #f05372;
+}
