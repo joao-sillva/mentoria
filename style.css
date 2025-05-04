@@ -138,3 +138,32 @@ fieldset h2 {
   width: 100%;
   margin-right: 32px;
 }
+
+footer {
+  background: #535971;
+  height: 160px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 51px 71px;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 30px;
+}
+
+footer .button {
+  height: 55px;
+  border: none;
+  border-radius: 20px;
+
+  font-family: "Staatliches", sans-serif;
+  background: #FF5374;
+  color: #EFEFEF;
+  font-size: 20px;
+  line-height: 26px;  
+  cursor: pointer;
+}
+
+footer .button:hover {
+  background: #f05372;
+}
