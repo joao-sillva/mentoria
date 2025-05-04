@@ -3,3 +3,51 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #EFEFEF;
+}
+
+body::before {
+  content: "";
+  width: 100%;
+  height: 436px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #535971;
+}
+
+#page {
+  width: 750px;
+  margin: auto;
+}
+
+header {
+  width: 400px;
+  margin-top: 140px;  
+}
+
+header h1 {
+  font-family: "Staatliches", sans-serif;
+  color: #FFF;
+  font-size: 48px;
+}
+
+header p {
+  color: #FFF;
+  font-size: 20px;
+  margin: 18px 0 46px;
+}
+
+form {
+  background: #FFF;
+  border-radius: 20px 20px 0 0;
+  padding: 64px;
+}
