@@ -72,3 +72,54 @@ fieldset h2 {
   color: #535971;
   line-height: 34px;
 }
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.column-2 {
+  display: flex;
+  gap: 22px;
+}
+
+.column-2 > div {
+  width: 100%;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label {
+  color: #4E4958;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.input-wrapper label span {
+  color: #a9a7af;
+  font-size: 12px;
+  line-height: 20px;
+  margin-left: 9px;
+}
+
+.input-wrapper label span:hover {
+  color: #6c6a71;
+}
+
+.input-wrapper input {
+  background: #FAFAFC;
+  color: #6c6a71;
+  font-size: 16px;
+  line-height: 26px;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  height: 56px;
+  padding: 24px;
+}
