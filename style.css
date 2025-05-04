@@ -50,6 +50,10 @@ form {
   background: #FFF;
   border-radius: 20px 20px 0 0;
   padding: 64px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }
 
 fieldset {
@@ -122,4 +126,15 @@ fieldset h2 {
 
   height: 56px;
   padding: 24px;
+}
+
+.column-3 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 32px;
+}
+
+.column-3 > div:nth-child(1) {
+  width: 100%;
+  margin-right: 32px;
 }
