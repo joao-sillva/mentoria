@@ -51,3 +51,24 @@ form {
   border-radius: 20px 20px 0 0;
   padding: 64px;
 }
+
+fieldset {
+  border: none;
+}
+
+fieldset legend {
+  font-family: "Staatliches", sans-serif;
+  font-size: 24px;
+  width: 100%;
+  
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 16px;
+  margin-bottom: 36px;
+}
+
+fieldset legend,
+fieldset h2 {
+  font-family: "Staatliches", sans-serif;
+  color: #535971;
+  line-height: 34px;
+}
