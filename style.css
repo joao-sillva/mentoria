@@ -178,3 +178,44 @@ footer .button {
 footer .button:hover {
   background: #f05372;
 }
+
+@media (width <= 46em) {
+  #page {
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  header {
+    width: 100%;
+    margin-top: 4rem;
+  }
+
+  header h1 {
+    font-size: 3rem;
+  }
+
+  header p {
+    font-size: 1.4rem;
+  }
+
+  form {
+    padding: 3rem;
+    margin: 0 auto;
+  }
+
+  .input-wrapper input {
+    max-width: 30rem;
+    width: 100%;
+  }
+
+  .column-2,
+  .column-3 {
+    flex-direction: column;
+  }
+
+  footer {
+    height: auto;
+    padding: 2rem 1rem;
+    margin-bottom: 4rem;
+  }
+}
