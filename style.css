@@ -4,9 +4,14 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
 body,
 input {
   font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
 }
 
 body {
@@ -16,7 +21,7 @@ body {
 body::before {
   content: "";
   width: 100%;
-  height: 436px;
+  height: 43.6rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -25,35 +30,35 @@ body::before {
 }
 
 #page {
-  width: 750px;
+  width: 75rem;
   margin: auto;
 }
 
 header {
-  width: 400px;
-  margin-top: 140px;  
+  width: 40rem;
+  margin-top: 14rem;  
 }
 
 header h1 {
   font-family: "Staatliches", sans-serif;
   color: #FFF;
-  font-size: 48px;
+  font-size: 4.8rem;
 }
 
 header p {
   color: #FFF;
-  font-size: 20px;
-  margin: 18px 0 46px;
+  font-size: 2rem;
+  margin: 1.8rem 0 4.6rem;
 }
 
 form {
   background: #FFF;
-  border-radius: 20px 20px 0 0;
-  padding: 64px;
+  border-radius: 2rem 2rem 0 0;
+  padding: 6.4rem;
 
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 4.8rem;
 }
 
 fieldset {
@@ -62,30 +67,36 @@ fieldset {
 
 fieldset legend {
   font-family: "Staatliches", sans-serif;
-  font-size: 24px;
+  font-size: 2.4rem;
   width: 100%;
   
   border-bottom: 1px solid #E6E6F0;
-  padding-bottom: 16px;
-  margin-bottom: 36px;
+  padding-bottom: 1.6rem;
+  margin-bottom: 3.6rem;
+}
+
+fieldset h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1.1rem;
 }
 
 fieldset legend,
 fieldset h2 {
   font-family: "Staatliches", sans-serif;
   color: #535971;
-  line-height: 34px;
+  line-height: 3.4rem;
 }
 
 .fieldset-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1.6rem;
 }
 
 .column-2 {
   display: flex;
-  gap: 22px;
+  gap: 2.2rem;
 }
 
 .column-2 > div {
@@ -99,16 +110,16 @@ fieldset h2 {
 
 .input-wrapper label {
   color: #4E4958;
-  font-size: 14px;
-  line-height: 24px;
-  margin-bottom: 8px;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  margin-bottom: 0.8rem;
 }
 
 .input-wrapper label span {
   color: #a9a7af;
-  font-size: 12px;
-  line-height: 20px;
-  margin-left: 9px;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-left: 0.9rem;
 }
 
 .input-wrapper label span:hover {
@@ -118,49 +129,49 @@ fieldset h2 {
 .input-wrapper input {
   background: #FAFAFC;
   color: #6c6a71;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
 
   border: 1px solid #E6E6F0;
-  border-radius: 8px;
+  border-radius: 0.8rem;
 
-  height: 56px;
-  padding: 24px;
+  height: 5.6rem;
+  padding: 2.4rem;
 }
 
 .column-3 {
   display: flex;
-  gap: 10px;
-  margin-bottom: 32px;
+  gap: 1rem;
+  margin-bottom: 3.2rem;
 }
 
 .column-3 > div:nth-child(1) {
   width: 100%;
-  margin-right: 32px;
+  margin-right: 3.2rem;
 }
 
 footer {
   background: #535971;
-  height: 160px;
+  height: 16rem;
 
   display: flex;
   flex-direction: column;
 
-  padding: 51px 71px;
-  border-radius: 0 0 20px 20px;
-  margin-bottom: 30px;
+  padding: 5.1rem 7.1rem;
+  border-radius: 0 0 2rem 2rem;
+  margin-bottom: 3rem;
 }
 
 footer .button {
-  height: 55px;
+  height: 5.5rem;
   border: none;
-  border-radius: 20px;
+  border-radius: 2rem;
 
   font-family: "Staatliches", sans-serif;
   background: #FF5374;
   color: #EFEFEF;
-  font-size: 20px;
-  line-height: 26px;  
+  font-size: 2rem;
+  line-height: 2.6rem;  
   cursor: pointer;
 }
 
